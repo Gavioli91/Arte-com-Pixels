@@ -10,6 +10,8 @@ body{
 
 #color-palette{
     display: inline-flex;
+    margin: 10px;
+    display: flex;
     margin-bottom: 100px;
 }
 
@@ -20,51 +22,37 @@ h1{
     line-height: 5px;
 }
 
-.preto{
+.color{
+    border:#000000 1px solid;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.selected{
     background-color: black;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-    width: 50px;
-    height: 50px;
 }
 
 .azul{
     background-color: blue;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-    width: 50px;
-    height: 50px;
 }
 
 .vermelho{
     background-color: red;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-    width: 50px;
-    height: 50px;
 }
 
 .amarelo{
     background-color: yellow;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-    width: 50px;
-    height: 50px;
 }
 
-
-
 .pixel{
+    display: inline-flex;
     background-color: white;
     border: 1px;
     border-color: black;
     border-style: solid;
     width: 40px;
     height: 40px;
-    display: inline-flex;
 }
 
