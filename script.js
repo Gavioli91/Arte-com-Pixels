@@ -11,6 +11,21 @@ function selectColor() {
 }
 selectColor();
 
+const whitePixel = document.getElementsByClassName('pixel');
+function paintPixel() {
+    for (let index = 0; index < whitePixel.length; index +=1) {
+        whitePixel[index].addEventListener('click', () => {
+            const selectedColor1 = document.querySelector('.selected');
+            const selectedColor2 = window.getComputedStyle(selectedColor1, null);
+            const selectedColorValue = selectedColor2.getPropertyValue('background-color');
+            whitePixel[index].style.backgroundColor = selectedColorValue;
+
+        })
+    }
+}
+paintPixel();
+
+
 
 
     
