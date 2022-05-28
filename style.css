@@ -30,20 +30,27 @@ h1{
     cursor: pointer;
 }
 
-.selected{
+#preto{
     background-color: black;
 }
 
-.azul{
+#azul{
     background-color: blue;
 }
 
-.vermelho{
+#vermelho{
     background-color: red;
 }
 
-.amarelo{
+#amarelo{
     background-color: yellow;
+}
+
+.limpar{
+    display: inline-flex;
+    width: 5px;
+    height: 5px;
+    margin-bottom: 10px;
 }
 
 .pixel{
