@@ -25,6 +25,15 @@ function paintPixel() {
 }
 paintPixel();
 
+function clearButton() {
+    const button = document.getElementById('clear-board');
+    button.addEventListener('click', () => {
+      for (let index = 0; index < whitePixel.length; index +=1) {
+        whitePixel[index].style.backgroundColor = 'white';
+      }
+    });
+  }
+  clearButton();
 
 
 
